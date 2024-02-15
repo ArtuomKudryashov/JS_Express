@@ -1,21 +1,21 @@
-let name = "Artuom";
-let age =  150;
+// let name = "Artuom";
+// let age =  30;
 
-if(age >0 && age < 120){
-    if (age >0 && age <21 ){
-        console.log("Please take a glass of juice");
+// if(age >0 && age < 120){
+//     if (age >0 && age <21 ){
+//         console.log("Please take a glass of juice");
 
-    }else if(age >21 && age <=80){
-        console.log("May I offer you a glass of wine");
+//     }else if(age >21 && age <=80){
+//         console.log("May I offer you a glass of wine");
 
-    }else {
-        console.log("Maybe kefir?")
+//     }else {
+//         console.log("Maybe kefir?")
 
     
-    }
-}else{
-    console.log("Invalid input data.")
-}
+//     }
+// }else{
+//     console.log("Invalid input data.")
+// }
 
 console.log ("<<<<<<<<<<<<<<<<<<<<<Task#2>>>>>>>>>>>>>>>>>>>>")
  

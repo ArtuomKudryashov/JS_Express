@@ -1,0 +1,211 @@
+console.log("<<<<<<<<<<<<<<<<<Pop()>>>>>>>>>>>>>>>>");
+let homeArray = [17, "test", true, [4, 5], "last"];
+let newHomeArray;
+console.log("homeArray = ", homeArray);
+
+newHomeArray = homeArray.pop();
+console.log("newHomeArray = ", newHomeArray);
+const popped = homeArray.pop();
+console.log("homeArray = ", homeArray);
+console.log(typeof newHomeArray);
+console.log(typeof homeArray);
+
+console.log("<<<<<<<<<<<<<<<<<length>>>>>>>>>>>>>>>>");
+
+homeArray = [17, "test", true, [4, 5], "last"];
+newHomeArray;
+console.log("homeArray = ", homeArray);
+
+newHomeArray = homeArray.length;
+console.log("newHomeArray = ", newHomeArray);
+console.log("homeArray = ", homeArray);
+
+console.log("<<<<<<<<<<<<<<<<<Array toString()>>>>>>>>>>>>>>>>");
+
+homeArray = [17, "test", true, [4, 5], "last"];
+newHomeArray;
+console.log("homeArray = ", homeArray);
+
+newHomeArray = homeArray.toString();
+console.log("newHomeArray = ", newHomeArray);
+console.log(typeof newHomeArray);
+console.log("homeArray = ", homeArray);
+console.log(typeof homeArray);
+
+console.log("<<<<<<<<<<<<<<<<<Array at()>>>>>>>>>>>>>>>>");
+
+homeArray = [17, "test", true, [4, 5], "last"];
+newHomeArray;
+console.log("homeArray = ", homeArray);
+
+newHomeArray = homeArray.at(3);
+console.log("newHomeArray = ", newHomeArray);
+console.log(typeof newHomeArray);
+console.log("homeArray = ", homeArray);
+console.log(typeof homeArray);
+
+console.log("<<<<<<<<<<<<<<<<<Array join()>>>>>>>>>>>>>>>>");
+
+homeArray = [17, "test", true, [4, 5], "last"];
+newHomeArray;
+console.log("homeArray = ", homeArray);
+
+newHomeArray = homeArray.join("**");
+console.log("newHomeArray = ", newHomeArray);
+console.log(typeof newHomeArray);
+console.log("homeArray = ", homeArray);
+console.log(typeof homeArray);
+
+console.log("<<<<<<<<<<<<<<<<<Array push()>>>>>>>>>>>>>>>>");
+
+homeArray = [17, "test", true, [4, 5], "last"];
+newHomeArray;
+console.log("homeArray = ", homeArray);
+
+newHomeArray = homeArray.push("**");
+console.log("newHomeArray = ", newHomeArray);
+console.log(typeof newHomeArray);
+console.log("homeArray = ", homeArray);
+console.log(typeof homeArray);
+
+console.log("<<<<<<<<<<<<<<<<<Array shift()>>>>>>>>>>>>>>>>");
+
+homeArray = [17, "test", true, [4, 5], "last"];
+newHomeArray;
+console.log("homeArray = ", homeArray);
+
+newHomeArray = homeArray.shift("**");
+console.log("newHomeArray = ", newHomeArray);
+console.log(typeof newHomeArray);
+console.log("homeArray = ", homeArray);
+console.log(typeof homeArray);
+
+console.log("<<<<<<<<<<<<<<<<<Array unshift()>>>>>>>>>>>>>>>>");
+
+homeArray = [17, "test", true, [4, 5], "last"];
+newHomeArray;
+console.log("homeArray = ", homeArray);
+
+newHomeArray = homeArray.unshift("**");
+console.log("newHomeArray = ", newHomeArray);
+console.log(typeof newHomeArray);
+console.log("homeArray = ", homeArray);
+console.log(typeof homeArray);
+
+console.log("<<<<<<<<<<<<<<<<<delete(index)>>>>>>>>>>>>>>>>");
+
+homeArray = [17, "test", true, [4, 5], "last"];
+newHomeArray;
+console.log(`homeArray = ${homeArray}`);
+
+newHomeArray = delete homeArray[2];
+console.log(`newHomeArray = ${newHomeArray}`);
+console.log(typeof newHomeArray);
+console.log(`homeArray = ${homeArray}`);
+console.log(typeof homeArray);
+
+console.log("<<<<<<<<<<<<<<<<<delete(index)>>>>>>>>>>>>>>>>");
+
+homeArray = [17, "test", true, [4, 5], "last"];
+newHomeArray;
+console.log("homeArray = ", homeArray);
+
+newHomeArray = delete homeArray[2];
+console.log("newHomeArray = ", newHomeArray);
+console.log(typeof newHomeArray);
+console.log("homeArray = ", homeArray);
+console.log(typeof homeArray);
+
+console.log("<<<<<<<<<<<<<<<<<Array concat()>>>>>>>>>>>>>>>>");
+
+homeArray = [17, "test", true, [4, 5], "last"];
+let homeArray2 = [170, "test0", true, [4, 5], "lastoi"];
+newHomeArray;
+console.log("homeArray = ", homeArray);
+
+newHomeArray = homeArray.concat(homeArray2);
+console.log("newHomeArray = ", newHomeArray);
+console.log(typeof newHomeArray);
+console.log("homeArray = ", homeArray);
+console.log(typeof homeArray);
+
+console.log("<<<<<<<<<<<<<<<<<Array copyWithin>>>>>>>>>>>>>>>>");
+
+homeArray = [17, "test", true, [4, 5], "last"];
+newHomeArray;
+console.log("homeArray = ", homeArray);
+
+newHomeArray1 = homeArray.copyWithin(0, 1);
+console.log("newHomeArray1 =", newHomeArray1);
+console.log("homeArray = ", homeArray);
+
+homeArray = [17, "test", true, [4, 5], "last"];
+newHomeArray2 = homeArray.copyWithin(0, 2);
+console.log("newHomeArray2 = ", newHomeArray2);
+console.log("homeArray = ", homeArray);
+
+homeArray = [17, "test", true, [4, 5], "last"];
+newHomeArray3 = homeArray.copyWithin(0, 3);
+console.log("newHomeArray3 = ", newHomeArray3);
+
+homeArray = [17, "test", true, [4, 5], "last"];
+newHomeArray4 = homeArray.copyWithin(0, 4);
+console.log("newHomeArray4 = ", newHomeArray4);
+
+homeArray = [17, "test", true, [4, 5], "last"];
+newHomeArray5 = homeArray.copyWithin(0, 5);
+console.log("newHomeArray5 = ", newHomeArray5);
+
+console.log("<<<<<<<<<<<<<<<<<Array flat()>>>>>>>>>>>>>>>>");
+
+homeArray = [17, "test", true, [4, 5], "last"];
+newHomeArray;
+console.log("homeArray = ", homeArray);
+
+newHomeArray = homeArray.flat(2);
+console.log("newHomeArray = ", newHomeArray);
+
+console.log("homeArray = ", homeArray);
+
+homeArray = [17, "test", true, [4, 5], "last"];
+newHomeArray;
+console.log("homeArray = ", homeArray);
+
+newHomeArray = homeArray.flat(0);
+console.log("newHomeArray = ", newHomeArray);
+
+console.log("homeArray = ", homeArray);
+console.log(typeof homeArray);
+
+console.log("<<<<<<<<<<<<<<<<<Array splice()>>>>>>>>>>>>>>>>");
+
+homeArray = [17, "test", true, [4, 5], "last"];
+let remove;
+console.log("homeArray = ", homeArray);
+
+remove = homeArray.splice(1, 2, "x", "y", "z");
+console.log("remove = ", remove);
+
+console.log("homeArray = ", homeArray);
+
+console.log("<<<<<<<<<<<<<<<<<Array toSpliced()>>>>>>>>>>>>>>>>");
+
+homeArray = [17, "test", true, [4, 5], "last"];
+let toSplicedi;
+console.log("homeArray = ", homeArray);
+
+toSplicedi = homeArray.splice(1, 2);
+console.log("toSpliced = ", toSplicedi);
+
+console.log("homeArray = ", homeArray);
+
+console.log("<<<<<<<<<<<<<<<<<Array slice()>>>>>>>>>>>>>>>>");
+
+homeArray = [17, "test", true, [4, 5], "last"];
+let slicied;
+console.log("homeArray = ", homeArray);
+
+slicied = homeArray.slice(1, 3);
+console.log("toSpliced = ", slicied);
+
+console.log("homeArray = ", homeArray);
